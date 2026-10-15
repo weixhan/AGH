@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "defect-researcher"
+version = "0.1.0"
+description = "Evidence-producing industrial vision research tools for Agnes Harness"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["defect_researcher*"]
+
